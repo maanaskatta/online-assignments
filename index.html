@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="LogPage.css">
+	<script type="text/javascript" src="LogPage.js"></script>
+</head>
+<body>
+
+
+
+	<div id="SRIIT">
+		SR International Institute of Technology
+	</div>
+
+	<div id="main">
+		<h3 id="heading">Login Page</h3>
+		<form name="myform" method="post" >
+			
+			<input type="text" id="username" name="username" placeholder="Username"><br>
+			<input type="password" id="password" name="password"  placeholder="Password"><br>
+
+			<div id="Login">Login as :</div>
+			
+			<div id="credits">
+				<input type="radio" name="credits"  value="1" onclick="hide()">Students
+				<input type="radio" name="credits" value="2" onclick="show()">Professor
+			</div>
+			
+			<input type="button" name="" id="submit" onclick="test()" value="Log In">
+		</form>
+	</div>
+
+	
+	<div id="sub_window">
+
+		<div style="font-size: 29px;font-weight: bold;">Select your subject :</div>
+		<br>
+		
+		<div id="subject">
+			<form name="course">
+				<input type="radio" name="subject" value="1">DS<br><br>
+				<input type="radio" name="subject" value="2">WT<br><br>
+				<input type="radio" name="subject" value="3">OOAD<br><br>
+				<input type="radio" name="subject" value="4">PPL<br><br>
+				<input type="radio" name="subject" value="5">IS<br><br>
+				<input type="radio" name="subject" value="6">CD<br><br>
+			</form>
+			
+
+			
+		</div>
+
+	</div>
+ 
+
+
+
+</body>
+</html>

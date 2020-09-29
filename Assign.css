@@ -1,0 +1,93 @@
+body{
+
+	background: #f3f3f3 ;
+}
+
+#head{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 19%;
+	width: 100%;
+	background: #D71A15;
+}
+
+#heading{
+	position: relative;
+	top: -20px;
+	text-align: center;
+	font-size: 39px;
+	font-family: "Codec";
+	color: black;
+
+}
+
+#logout{
+
+	position: absolute;
+	top: 35%;
+	left: 92%;
+	text-decoration: none;
+	background: white;
+	padding:5px;
+	color: black;
+	border-radius: 7%;
+	border:1px solid white ;
+
+}
+
+#logout:hover{
+
+	background: black;
+	color: white;
+}
+
+#links{
+	position: relative;
+	bottom: 25%;
+	left: 0px;
+	background: white;
+	text-decoration: none;
+	color: black;
+	margin-left: 50px;
+	padding:5px;
+	border-radius: 5px;
+	border:1px solid white;
+	font-family: "Segoe UI";
+}
+
+#links:hover{
+	background: black;
+	color: white;
+
+}
+
+#download{
+	text-decoration: none;
+	padding: 5px 30px;
+	background: #D71A15;
+	font-size: 20px;
+	color: black;
+	border-radius: 10px;
+}
+
+#row{
+
+	color : black;
+	font-size: 20px;
+
+}
+
+#cols{
+
+	font-size: 27px;
+	font-weight: bold;
+	color : #D71A15;
+}
+
+#line{
+
+	position: relative;
+	top: 8%;
+	
+}

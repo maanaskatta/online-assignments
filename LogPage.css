@@ -1,0 +1,135 @@
+body{
+
+	background-image:  linear-gradient(to right,#5d5c5c,white);
+	background-size: cover;
+}
+
+#SRIIT{
+
+	margin-top: 70px;
+	color: #42303d;
+	text-shadow: 50px;
+	text-align: center;
+	font-size: 39px;
+	font-style: oblique;
+}
+
+#main{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	width: 400px;
+	padding: 60px;
+	background: rgba(0,0,0,0.8);
+	color: #FFFF;
+	box-sizing: border-box;
+	box-shadow: 0 15px 50px rgba(0,0,0,1);
+	border-radius: 15px;
+}
+
+#heading{
+
+	position: absolute;
+	top: 10px;
+	left: 150px;
+}
+
+#username{
+
+	position: relative;
+	top: 15px;
+	left: 40px;
+	height: 30px;
+	border-style: none;
+	padding-left: 10px;
+	background: transparent;
+	border-bottom: 1px solid white;
+	color: white;
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+
+}
+
+#password{
+
+	position: relative;
+	top: 30px;
+	left: 40px;
+	height: 30px;
+	border-style: none;
+	padding-left: 10px;
+	background: transparent;
+	border-bottom: 1px solid white;
+	font-family: "Comic Sans MS";
+	font-size: 16px;
+	color: white;
+
+}
+
+#Login{
+
+	position: relative;
+	top: 45px;
+	left: 40px;
+	height: 30px;
+	border-style: none;
+	font-family: "Comic Sans MS";
+
+}
+
+#credits{
+
+	position: relative;
+	top: 43px;
+	left: 40px;
+	height: 30px;
+	border-style: none;
+	font-size: 19px;
+	font-family: "Comic Sans MS";
+	
+}
+
+#submit{
+
+	position: relative;
+	top: 50px;
+	left: 0px;
+	height: 30px;
+	border-style: none;
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid grey;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+#sub_window{
+
+	position: absolute;
+	top: 35%;
+	left: 73%;
+	width: 20%;
+	height: 50%;
+	background:initial;
+	display: none;
+}
+
+#subject{
+
+	font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

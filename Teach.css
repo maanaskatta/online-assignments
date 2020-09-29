@@ -1,0 +1,102 @@
+body{
+
+	background: #f3f3f3 ;
+}
+
+#head{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 19%;
+	width: 100%;
+	background: #D71A15;
+}
+
+#heading{
+	position: relative;
+	top: -20px;
+	text-align: center;
+	font-size: 39px;
+	font-family: "Codec";
+	color: black;
+
+}
+
+#logout{
+
+	position: absolute;
+	top: 35%;
+	left: 92%;
+	text-decoration: none;
+	background: white;
+	padding:5px;
+	color: black;
+	border-radius: 7%;
+	border:1px solid white ;
+
+}
+
+#logout:hover{
+
+	background: black;
+	color: white;
+}
+
+#upload{
+
+	position: absolute;
+	top: 45%;
+	left: 35%;
+	background: rgba(0,0,0,0.5);
+	box-shadow: 0px 5px 10px; 
+	border-radius: 20px;
+	padding: 15px;
+	padding-bottom: 30px;
+}
+
+
+
+#box{
+	position: relative;
+	border:inset;
+	right: 5%;
+	width: 100%;
+	margin-left: 15px;
+	padding: 5px;
+	font-size: 17px;
+}
+
+#file{
+
+	margin-left: 57px;
+
+}
+
+#submit{
+
+	position: relative;
+	top: 20px;
+	left: 25%;
+	font-family: "Segoe UI";
+	border-radius: 5px;
+	border: 1px solid grey;
+	width: 50%;
+	padding: 5px 30px;
+
+
+}
+
+#links{
+	position: relative;
+	bottom: 25%;
+	left: 0px;
+	background: white;
+	text-decoration: none;
+	color: black;
+	margin-left: 50px;
+	padding:5px;
+	border-radius: 5px;
+	border:1px solid white;
+	font-family: "Segoe UI";
+}
+
